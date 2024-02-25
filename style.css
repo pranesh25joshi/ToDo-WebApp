@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todos li.completed{
+    text-decoration: line-through;
+}
