@@ -106,7 +106,7 @@
           })
         }
         else {
-          todoEl.addEventListener("swiped", (e) => {
+          todoEl.addEventListener("touchmove", (e) => {
             e.preventDefault()
             todoEl.remove();
             updateLS()
