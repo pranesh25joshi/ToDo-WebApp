@@ -106,7 +106,7 @@
           })
         }
         else {
-          todoEl.addEventListener("gestureend", (e) => {
+          todoEl.addEventListener("touchstart", (e) => {
             e.preventDefault()
             todoEl.remove();
             updateLS()
